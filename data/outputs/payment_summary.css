@@ -1,0 +1,278 @@
+
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+    text-decoration: none;
+  }
+
+* { 
+    margin:0; 
+    padding:0;
+}
+
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.header{
+    width:100%;
+    color: rgb(0, 0, 0);
+    display:inline-block;
+
+}
+.company{
+    padding: 10px;
+    float: left;
+}
+
+.cname{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.ctitle{
+    font-size: 22px;
+    opacity: 75%;
+}
+
+.cdetails{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px 0 0 0;
+    font-size: 16px;
+}
+
+.title{
+    padding: 10px;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.second{
+    display: inline-block;
+    width: 100%;
+}
+
+.invoice{
+    padding: 10px ;
+    float: right;
+}
+
+.invoice table .dat{
+    text-align: right;
+    opacity: 55%;
+}
+
+.invoice table{
+    font-weight: bold;
+}
+
+.invoice table td{
+    padding: 0 0 0 10px;
+}
+
+.client{
+    padding: 10px ;
+    float: left;
+    font-weight: bold;
+}
+
+.client .clname .tit{
+    font-size: 22px;
+}
+
+.client .clname .dat{
+    padding-top: 5px;
+    font-size: 18px;
+    opacity: 55%;
+}
+
+.client .cldetails{
+    padding: 5px 0 0 0;
+    font-size: 16px;
+    opacity: 55%;
+}
+
+.third{
+    padding: 10px;
+}
+
+.third table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.third table th{
+    padding: 12px 8px 12px 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #9400D3;
+    color: white;
+    font-weight: bold;
+}
+
+.third table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+
+.third table tr:nth-child(even){background-color: #f2f2f2;}
+
+.iref{
+    width: 20%;
+
+}
+
+.ino {
+    width: 20%;
+
+}
+
+#ipri {
+    width: 20%;
+    text-align: center;
+}
+
+.items{
+    text-align: center;
+}
+
+.third table .ipri{
+    text-align: right;
+    padding-right: 25px;
+}
+
+
+.fourth{
+    width: 100%;
+    display: block;
+}
+
+.payment{
+    padding: 10px;
+    float: right;
+}
+
+#ptitle{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.psub{
+    opacity: 55%;
+}
+
+
+.ptable td{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.total{
+    padding: 10px;
+    color:#483D8B;
+    font-size: 18px;
+    font-weight: bold;
+ 
+    
+
+    
+}
+.total .ttable{
+    float: right;
+}
+
+.total .ttitle{
+    color: #4A235A;
+    border-collapse: collapse;
+}
+
+.tsub{
+    text-align: right;
+}
+
+.paymentinfo{
+    padding: 10px;
+
+    .paymenttitle{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .details{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .data{
+        padding-left: 20px;
+        opacity: 55%;
+    }
+}
+
+
+.contacts{
+    
+    width: 100%;
+}
+
+.ctable{
+    font-size: 18px;
+    padding: 0 10px 0 10px;
+    width: 100%;
+}
+
+.ctable tr .cemail{
+    text-align: right;
+}
+
+.ctable tr .cwhat{
+    text-align: right;
+}
+
+.ctable tr .ctel{
+    text-align: left;
+}
+
+.ctable td{
+
+
+}
+
+.ctable img{
+    width: 20px;
+}
+
+
+
+.greet{
+    padding: 10px;
+    text-align: right;
+}
+
+.greet .gname{
+    font-size: 18px;
+}
+
+
+.tsub{
+    padding-top: 5px;
+}
+.ttitle{
+    padding-top:5px ;
+}
+
+@media print {
+    /* Set the page size to A5 landscape */
+    @page {
+        size: A4;
+        margin: 0.5in;
+        
+    }
+
+    
+}

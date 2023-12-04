@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="payment_summary.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{invoice_id}} Payment Summary</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="company">
+                <div class="cname">
+                  Harindu Bandara
+              </div>
+                <div class="ctitle">
+                    Graphic Designer
+                </div>
+                <div class="cdetails">
+                </div>
+
+            </div>
+            <div class="title">
+                PAYMENT SUMMARY
+            </div>
+        </div>
+        <div class="contacts">
+            <table class="ctable">
+                <tr>
+                    <td class="ctel"><a href="tel:+94731234567"> <img src="call.png" alt="">&nbsp; 0731234567 </a></td>
+                    <td class="cwhat"><a href="https://wa.me/+94731234567"><img src="whatsapp.png" alt="">&nbsp;
+                            0731234567 </a> </td>
+                    <td class="cemail"><img src="email.png" alt="">&nbsp; harindubanadara@gmail.com</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="pad">&nbsp;</div>
+
+        <div class="second">
+            <div class="invoice">
+
+                <table>
+                    <tr>
+                        <td class="tit">Invoice#</td>
+                        <td class="dat">{{invoice_id}}</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tit">Total</td>
+                        <td class="dat">Rs.{{invoice_total}}.00</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="client">
+                <div class="clname">
+                    <div class="tit">Customer:</div>
+                    <div class="dat">{{name}}</div>
+                </div>
+                <div class="cldetails">{{customer_details}}</div>
+            </div>
+        </div>
+
+        <div class="third">
+            <table class="items">
+                <thead>
+                    <th class="ino">Receipt</th>
+                    <th class="iref">Date</th>
+                    <th>Payment Method</th>
+                    <th id="ipri">Amount</th>
+                </thead>
+                <tbody>
+                    {{table}}
+                    <!-- <tr>
+                        <td>00000001</td>
+                        <td>2023-10-11</td>
+                        <td>BOC Account</td>
+                        <td class='ipri'>Rs.1000.00</td>
+                    </tr> -->
+                    <!-- <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class='ipri'>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class='ipri'>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class='ipri'>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class='ipri'>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class='ipri'>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class='ipri'>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class='ipri'>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class='ipri'>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class='ipri'>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class='ipri'>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class='ipri'>&nbsp;</td>
+                    </tr> -->
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="fourth">
+            <div class="bfourth">
+                <div class="total">
+                    <table class="ttable">
+                        <tr>
+                            <td class="ttitle">Total Paid:&nbsp;</td>
+                            <td class="tsub">Rs.{{paid}}.00</td>
+                        </tr>
+                        {{ok}}
+                    </table>
+                </div>
+            </div>
+            {{payment_info}}
+        </div>
+
+        <div class="greet">
+            <div class="ggreet">Thank you, <br></div>
+            <div class="gname"> Harindu Bandara </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>

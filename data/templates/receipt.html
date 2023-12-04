@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="receipt.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt {{receipt_id}} - {{name}}</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="company">
+                <div class="cname">
+                  Harindu Bandara
+              </div>
+                <div class="ctitle">
+                    Graphic Designer
+                </div>
+                <div class="cdetails">
+                </div>
+
+            </div>
+            <div class="title">
+                PAYMENT RECEIPT
+            </div>
+        </div>
+        <div class="contacts">
+            <table class="ctable">
+                <tr>
+                    <td class="ctel"><a href="tel:+94731234567"> <img src="call.png" alt="">&nbsp; 0731234567 </a></td>
+                    <td class="cwhat"><a href="https://wa.me/+94731234567"><img src="whatsapp.png" alt="">&nbsp;
+                            0731234567 </a> </td>
+                    <td class="cemail"><img src="email.png" alt="">&nbsp; harindubanadara@gmail.com</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="pad">&nbsp;</div>
+
+        <div class="second">
+            <div class="receipt">
+
+                <table>
+                    <tr>
+                        <td class="tit">Receipt#</td>
+                        <td class="dat">{{receipt_id}}</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="client">
+                <div class="clname">
+                    <div class="tit">Customer:</div>
+                    <div class="dat">{{name}}</div>
+                </div>
+                <div class="cldetails">{{customer_details}}</div>
+            </div>
+        </div>
+
+        <div class="third">
+            <table class="items">
+                <thead>
+                    <th class="col1">Invoice</th>
+                    <th class="col2">Date</th>
+                    <th class="col3">Payment Method</th>
+                    <th class="col4">Amount</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{invoice_id}}</td>
+                        <td>{{date}}</td>
+                        <td>{{method}}</td>
+                        <td id=price>Rs.{{amount}}.00</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <div class="remaining">
+                <div class="data">
+                    <div class="text">Remaining Payment</div>
+                    <div class="value">Rs.{{unpaid}}.00</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="greet">
+            <div class="ggreet">Thank you, <br></div>
+            <div class="gname"> Harindu Bandara </div>
+
+        </div>
+    </div>
+

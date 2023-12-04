@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="invoice.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{invoice}}</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="company">
+                <div class="cname">
+                  Harindu Bandara
+              </div>
+                <div class="ctitle">
+                    Graphic Designer
+                </div>
+                <div class="cdetails">
+                </div>
+                
+            </div>            
+            <div class="title">
+                INVOICE
+            </div>
+        </div>
+        <div class="contacts">
+            <table class="ctable">
+                <tr>
+                    <td class="ctel"><a href="tel:+94731234567"> <img src="call.png" alt="">&nbsp; 0731234567 </a></td>
+                    <td class="cwhat"><a href="https://wa.me/+94731234567"><img src="whatsapp.png" alt="">&nbsp; 0731234567 </a> </td>
+                    <td class="cemail"><img src="email.png" alt="">&nbsp; harindubanadara@gmail.com</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="pad">&nbsp;</div>
+
+        <div class="second">
+            <div class="invoice">
+                
+                <table>
+                    <tr>
+                        <td class="tit">Invoice#</td>
+                        <td class="dat">{{invoice}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit">Date</td>
+                        <td class="dat">{{date}}</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="client">
+                <div class="clname">    <div class="tit">Invoice to:</div> <div class="dat">{{name}} </div>  </div>
+                <div class="cldetails">{{data}}</div>
+            </div>
+        </div>
+        
+        <div class="third">
+            <table class="items">
+                <thead>
+                    <th class="ino">No</th>
+                    <th class="iref">Job ID</th>
+                    <th>Description</th>
+                    <th id="ipri">Price</th>
+                </thead>
+                <tbody>
+                    {{rows}}
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="fourth">
+            <div class="bfourth">
+                <div class="payment">
+                    <div id="ptitle">
+                        Payment Info:</div>
+                    <table class="ptable">
+                        <tr>
+                            <td class="ptitle">Account No &nbsp;&nbsp;&nbsp; </td>
+                            <td class="psub">00000000</td>
+                        </tr>
+                        <tr>
+                            <td class="ptitle">Name </td>
+                            <td class="psub">Harindu Bandara&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td class="ptitle">Bank </td>
+                            <td class="psub">ABC Bank (Colombo)</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="total">
+                    <table class="ttable">
+                        <tr>
+                            <td class="ttitle">Total:&nbsp;</td>
+                            <td class="tsub">Rs.{{total}}.00</td>
+                        </tr> 
+                    </table>
+
+                </div>
+            </div>
+
+            
+
+        </div>
+
+        <div class="greet">
+            <div class="ggreet">Thank you, <br></div>
+            <div class="gname"> Harindu Bandara </div>
+            
+        </div>
+    
+    
+    
+    
+
+
+
+
+
+    </div>
+</body>
+</html>
