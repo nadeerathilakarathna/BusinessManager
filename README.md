@@ -25,7 +25,7 @@ Business Manager, a standalone software designed for graphic designers, simplifi
 
 #### Add customer <a id="add-customer"></a>
 You can seamlessly add customer details to Business Manager, facilitating efficient client management.
-![Local Image](https://github.com/nadeerathilakarathna/BusinessManager/blob/main/screenshots/add_customer.JPG?raw=true)
+![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
 
 #### Create invoice <a id="create-invoice"></a>
 Business Manager simplifies the invoice creation process. You can choose the directory to save client source files, ensuring easy access. After adding invoice details, preview the document. Whether you prefer a hard copy (Ctrl + P) or a digital format, easily print or save the invoice as a PDF directly from your computer.
