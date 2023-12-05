@@ -21,6 +21,8 @@
 
 ## Introduction <a id="introduction"></a>
 Business Manager, a standalone software designed for graphic designers, simplifies job and invoice management. Easily add customers, create invoices, track payments, and provide printable PDF receipts. With all data saved locally, it's the go-to solution for organized and efficient graphic design project and finance management.
+
+![](screenshots/home.JPG)
 ## Features <a id="features"></a>
 
 #### Add customer <a id="add-customer"></a>
