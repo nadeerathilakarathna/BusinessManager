@@ -873,7 +873,7 @@ class EditInvoice:
                 entry_invoice.insert(0, new_value)
 
         customtkinter.set_appearance_mode("dark")
-        customtkinter.set_default_color_theme("green")
+        customtkinter.set_default_color_theme("dark-blue")
         f = customtkinter.CTkToplevel(root)
         # f.attributes('-topmost', 'true')
 
@@ -1388,7 +1388,7 @@ class Payment():
 
 
         customtkinter.set_appearance_mode("dark")
-        customtkinter.set_default_color_theme("green")
+        customtkinter.set_default_color_theme("dark-blue")
         frame_main = customtkinter.CTkToplevel(root)
         # f.attributes('-topmost', 'true')
 
