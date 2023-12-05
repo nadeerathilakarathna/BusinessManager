@@ -24,7 +24,7 @@ Business Manager, a standalone software designed for graphic designers, simplifi
 ## Features <a id="features"></a>
 
 #### Add customer <a id="add-customer"></a>
-You can seamlessly add customer details to Business Manager, facilitating efficient client management.
+You can seamlessly add customer details to Business Manager, facilitating efficient client management.  
 ![](screenshots/add_customer.JPG)
 
 #### Create invoice <a id="create-invoice"></a>
