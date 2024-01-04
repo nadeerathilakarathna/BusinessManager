@@ -17,6 +17,7 @@
 	- [Payments](#payments)
 	- [Payment Summary](#payment-summary) 
 	- [Manage Customer](#manage-customer)
+- [License](#license)
 
 ## Introduction <a id="introduction"></a>
 Business Manager, a standalone software designed for graphic designers, simplifies job and invoice management. Easily add customers, create invoices, track payments, and provide printable PDF receipts. With all data saved locally, it's the go-to solution for organized and efficient graphic design project and finance management.
@@ -55,3 +56,5 @@ Business Manager simplifies payment tracking by generating a concise and easily 
 Effortlessly keep customer details up-to-date with Business Manager. If any customer information changes, the software allows you to easily edit and update their details. 
 ![](screenshots/manage_customer.JPG)
 
+## License <a id="license"></a>
+This software is distributed under the terms of the GNU General Public License version 2 (GPLv2). Users are granted the freedom to modify the source code, subject to compliance with GPLv2 stipulations. These requirements encompass the sharing of any distributed modifications' source code under the GPLv2, the preservation of original copyright notices, the proper crediting of authors, and the refraining from imposing additional restrictions on the software.
